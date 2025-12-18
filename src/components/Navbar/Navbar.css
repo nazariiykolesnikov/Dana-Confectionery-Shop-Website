@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.navbar__container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Italianno", cursive;
+}
+
+.navbar {
+    height: 22vh;
+    background: #e6af69;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__logo {
+    color: #ffffff;
+    text-decoration: none;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    position: relative;
+}
+
+.nav-item__link {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 6px 16px;
+    font-size: 32px;
+    margin-right: 2rem;
+    border-radius: 5px;
+}
+
+.nav-item__link:hover {
+    background: #c88342;
+}
+
+.navbar__logo-image {
+    width: 125px;
+    height: 125px;
+    padding-left: 15px;
+}

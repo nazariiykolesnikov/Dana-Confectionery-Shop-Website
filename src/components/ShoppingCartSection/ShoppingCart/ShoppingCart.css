@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.shopping-cart__box {
+    font-family: "Merienda", cursive;
+}
+
+.shopping-cart__header {
+    margin-top: -8px;
+    margin-bottom: -10px;
+    font-size: 27px;
+    color: #dd9541;
+}
+
+.shopping-cart__ingredients {
+    position: relative;
+    margin-left: 2px;
+    font-weight: 500;
+}
+
+.shopping-cart__category {
+    position: relative;
+}
+
+.shopping-cart__category,
+.shopping-cart__ingredients-text,
+.shopping-cart__cuisine,
+.shopping-cart__time-to-prepare {
+    font-size: 20px;
+}
+
+.shopping-cart__ingredients span {
+    font-size: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    color: #232323;
+    text-decoration: none;
+}
+
+.shopping-cart__cuisine {
+    position: relative;
+}
+
+.shopping-cart__cuisine-icon {
+    position: absolute;
+    top: -2px;
+    left: 72px;
+    width: 34px;
+    height: 34px;
+}
+
+.shopping-cart__cuisine span {
+    margin-left: 5px;
+}
+
+.shopping-cart__cuisine span {
+    font-size: 20px !important;
+    color: #dd9541 !important;
+    text-decoration: none;
+}
+
+.shopping-cart__category span,
+.shopping-cart__time-to-prepare span {
+    font-size: 20px;
+    color: #dd9541 !important;
+    text-decoration: none;
+}
+
+.shopping-cart__time-to-prepare {
+    position: relative;
+}
+
+.shopping-cart__time-to-prepare-icon {
+    position: absolute;
+    top: 4px;
+    right: 132px;
+    width: 24px;
+    height: 24px;
+}
+
+.shopping-cart__time-to-prepare span {
+    margin-left: 6px;
+}
+
+.shopping-cart__category span {
+    margin-left: 8px;
+}
+
+.shopping-cart__ingredients-text {
+    color: #232323;
+    text-decoration: none;
+}
+
+.shopping-cart__ingredients-links a {
+    font-size: 20px !important;
+    color: #dd9541 !important;
+    text-decoration: underline !important;
+    text-decoration-style: dotted !important;
+}
+
+.shopping-cart__ingredients-links a:hover {
+    text-decoration: none !important;
+}
+
+.shopping-cart__category-icon {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: -1px;
+    right: 194px;
+}
+
+.shopping-cart__ingredients-icon {
+    position: absolute;
+    top: 2px;
+    right: 180px;
+    width: 26px;
+    height: 26px;
+}
+
+.shopping-cart__read-recipe-btn {
+    position: relative;
+}
+
+.shopping-cart__read-recipe-btn:hover {
+    background: #934f09;
+}
+
+.shopping-cart__read-recipe-btn-icon {
+    position: absolute;
+    top: 12px;
+    left: 90px;
+    width: 20px;
+    height: 20px;
+}
+
+.shopping-cart__category-link {
+    color: #dd9541 !important;
+    text-decoration: underline !important;
+    text-decoration-style: dotted !important;
+}
+
+.shopping-cart__category-link:hover {
+    text-decoration: none !important;
+}

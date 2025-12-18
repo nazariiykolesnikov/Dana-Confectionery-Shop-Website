@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.shopping-cart-section__container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shopping-cart-section__wrapper {
+    width: 101%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: -15px;
+    background: #ffffff;
+}
+
+.shopping-cart__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shopping-cart__box {
+    width: 320px;
+    overflow: hidden;
+    height: 750px;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
+}
+
+.shopping-cart__img {
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+}
+
+.shopping-cart__description {
+    margin-top: 10px;
+}
+
+.shopping-cart__header {
+    font-size: 28px;
+    color: #752355;
+}
+
+.shopping-cart__ingredients {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.shopping-cart__ingredient {
+    font-size: 10px;
+}
+
+span {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.shopping-cart__ingredients {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.shopping-cart__time-for-prepare {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.shopping-cart__read-recipe-btn {
+    margin-top: 10px;
+    outline: none;
+    width: 318px;
+    border: none;
+    background: #c88342;
+    padding: 12px 32px;
+    border-radius: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.shopping-cart__read-recipe-btn:hover {
+    background: #c88342;
+    color: #232323;
+}
+
+.shopping-cart__read-recipe-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Merienda", cursive;
+}
