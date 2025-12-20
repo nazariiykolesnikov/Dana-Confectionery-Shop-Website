@@ -29,6 +29,7 @@
 .social-networks__button {
     border: none !important;
     background: transparent !important;
+    padding: 8px 4px;
 }
 
 .social-networks__button:hover a {

@@ -27,6 +27,7 @@
     margin: 0;
 }
 
+.recipe-submenu-item__link,
 .submenu-item__link {
     color: white;
     text-decoration: none;
@@ -35,17 +36,20 @@
     font-size: 27px;
 }
 
-.submenu-item {
+.submenu-item,
+.recipe-submenu-item {
     cursor: pointer;
     transition: background .2s ease;
     text-decoration: none;
     color: #ffffff;
 }
 
+.recipe-submenu-item:hover,
 .submenu-item:hover {
     background: #c88342;
 }
 
+.recipe-submenu-item__image,
 .submenu-item__image {
     position: absolute;
     top: -2px;
@@ -54,12 +58,15 @@
     height: 30px;
 }
 
+.recipe-submenu-item__link-content,
 .submenu-item__link-content {
     position: relative;
 }
 
 .submenu-item__link:nth-child(1) .submenu-item {
     padding: 12px 128px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .submenu-item__link:nth-child(1) .submenu-item__image {
@@ -67,6 +74,10 @@
     top: -5px;
     width: 34px;
     height: 34px;
+}
+
+.recipe-submenu-item__link:nth-child(1) .recipe-submenu-item {
+    padding: 12px 165px;
 }
 
 .submenu-item__link:nth-child(2) .submenu-item {
@@ -78,6 +89,10 @@
     top: -8px;
     width: 40px;
     height: 40px;
+}
+
+.recipe-submenu-item__link:nth-child(2) .recipe-submenu-item {
+    padding: 12px 103px;
 }
 
 .submenu-item__link:nth-child(3) .submenu-item {
@@ -188,4 +203,6 @@
     top: -7px;
     width: 35px;
     height: 35px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }

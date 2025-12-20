@@ -1218,5 +1218,31 @@ export const productImages = [
         src: "https://i.ibb.co/ZzXVBSxf/2025-12-04-1576575671.png",
         imgSource: "https://www.youtube.com/watch?v=ARpOdJfJcb8",
         recipeSource: "https://www.youtube.com/@sweetrecps",
+    },
+    {
+        id: 45,
+        productName: "Chocolate Peppermint Pudding Cake",
+        category: [
+            { name: "Cakes", link: "/cakes" }
+        ],
+        alt: "Chocolate Peppermint Pudding Cake",
+        cuisine: [
+            { name: "American", link: "/american" }
+        ],
+        ingredients: [
+            { name: "butter", link: "/butter" },
+            { name: "salt", link: "/salt" },
+            { name: "sugar", link: "/sugar" },
+            { name: "flour", link: "/flour" },
+            { name: "whipping cream", link: "/whipping cream" },
+            { name: "cream cheese", link: "/cream-cheese" },
+            { name: "powdered sugar", link: "/powdered sugar" },
+            { name: "chocolate (any kind)", link: "/chocolate" },
+            { name: "vegetable oil", link: "/vegetable-oil" },
+        ],
+        timeToPrepare: "2 hours",
+        src: "https://i.ibb.co/ZzXVBSxf/2025-12-04-1576575671.png",
+        imgSource: "https://www.youtube.com/watch?v=ARpOdJfJcb8",
+        recipeSource: "https://www.youtube.com/@sweetrecps",
     }
 ];

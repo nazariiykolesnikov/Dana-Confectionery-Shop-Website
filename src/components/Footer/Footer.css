@@ -9,7 +9,6 @@
     background: linear-gradient(to right, #9a5e18, #c54e08);
     color: #ffffff;
     padding: 100px 0 30px;
-    border-top-left-radius: 125px;
     font-size: 13px;
 }
 
@@ -83,8 +82,8 @@
 }
 
 .footer__blog-img {
-    width: 18px;
-    height: 18px;
+    width: 38px;
+    height: 38px;
     margin-right: 10px;
     color: #cccccc;
 }
@@ -124,6 +123,7 @@ hr {
 
 .copyrights {
     text-align: center;
+    font-size: 19px;
 }
 
 .underline {

@@ -54,7 +54,7 @@ const Footer = () => {
                             <form className="footer__blog-form">
                                 <input type="email" placeholder="Enter your email address :" className="footer__blog-input" required/>
                                 <button type="submit" className="footer__blog-btn">
-                                    <img src={assets.arrow_right_logo} className="footer__blog-img" alt="arrow right logo"/>
+                                    <img className="footer__blog-img" src={assets.arrow_right_white}  alt="arrow right logo"/>
                                 </button>
                             </form>
                             <div className="footer__social-icons">
@@ -67,7 +67,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <p className="copyrights">Dana Confectionery @ 2025 - All Rights Reserved.</p>
+                <p className="copyrights">@2025 Dana Confectionery. All Rights Reserved.</p>
             </div>
         </>
     );

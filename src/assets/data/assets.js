@@ -7,6 +7,7 @@ import dot_circle_logo from "../logo/Dot/dot_circle.svg";
 import cake_logo from "../logo/Cake/cake_logo.svg";
 import pie_logo from "../logo/Pie/pie_logo.svg";
 import buns_logo from "../logo/Buns/buns_logo.svg";
+import arrow_right_white from "../logo/Arrows/ArrowRight/arrow-right-white.svg";
 import biscuit_cookies_logo_black from "../logo/BiscuitCookiesLogo/biscuit_cookies_logo_black.svg";
 import biscuit_cookies_logo_white from "../logo/BiscuitCookiesLogo/biscuit_cookies_logo_white.svg";
 import biscuit_logo from "../logo/BiscuitCookie/biscuit-cookie.svg";
@@ -25,6 +26,7 @@ import reading_logo_white from "../logo/Reading/reading_logo_white.svg";
 import reading_logo_black from "../logo/Reading/reading_logo_black.svg";
 import pie_black_logo from "../logo/Pie/pie_logo_black.svg";
 import cupcake_logo from "../logo/Cupcake/cupcake.svg";
+import x_logo from "../logo/XTwitterLogo/X_logo.svg";
 import ice_cream_logo from "../logo/IceCream/ice-cream.svg";
 import nuts_logo from "../logo/Nuts/nuts__logo.svg";
 import instagram_icon from "../logo/InstagramLogo/instagram__logo.svg";
@@ -47,12 +49,14 @@ export const assets = {
     biscuit_logo,
     eclairs_logo,
     pudding_logo,
+    arrow_right_white,
     macaroons_logo,
     handmade_candies_logo,
     cake_logo,
     pie_black_logo,
     cupcake_logo,
     ice_cream_logo,
+    x_logo,
     nuts_logo,
     jelly_souffle_logo,
     biscuit_cookies_logo_black,
